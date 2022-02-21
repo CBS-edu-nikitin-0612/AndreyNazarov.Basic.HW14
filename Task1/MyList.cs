@@ -2,7 +2,7 @@
 
 namespace Task2
 {
-    internal class MyList<T> : IEnumerable, IEnumerator
+    public class MyList<T> : IEnumerable, IEnumerator
     {
         private T[] array;
         private int current = -1;
